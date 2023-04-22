@@ -24,7 +24,7 @@ This microservice works with MongoDB database to store lyrics of the most popula
 
 _This is only the Django's management._  
 Linked parts of this project:
-- [Back-End-Development-Songs](https://github.com/ibm-developer-skills-network/sfvih-Back-end-Development-Capstone)
+- [Back-End-Development-Songs](https://github.com/JuanCarcedo/Back-End-Development-Songs)
 - [Back-End-Development-Pictures](https://github.com/JuanCarcedo/Back-End-Development-Pictures)
 
 ### Important Notes
