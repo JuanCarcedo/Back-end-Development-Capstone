@@ -1,4 +1,71 @@
-# Lab
+# IBM Back-End-Development-Capstone Django final project
+## Index
+1) IBM Skills Network - Intro to the project
+   1) Background
+   2) Important Notes
+2) Instructions
+   1) How to install
+   2) Version Updates
+3) Author and Licence
+
+
+## IBM Skills Network - Intro to the project
+The starting point of this project can be found here [IBM Project](https://github.com/ibm-developer-skills-network/sfvih-Back-end-Development-Capstone). This is a template (not a fork).  
+I implemented the necessary code to make this project work (initial structure given, please check the repository).
+
+Changes:
++ Views, urls, models.
+
+### Background
+Your client has asked you to build a website for a famous band. The backend developer on the project has recently left, and you need to finish the code so the website can go live. The application consists of some different microservices working together.  
+In this part of the project, the main webpage and intearaction with other services (with Django) is shown.
+
+This microservice works with MongoDB database to store lyrics of the most popular songs of the band.
+
+_This is only the Django's management._  
+Linked parts of this project:
+- [Back-End-Development-Songs](https://github.com/ibm-developer-skills-network/sfvih-Back-end-Development-Capstone)
+- [Back-End-Development-Pictures](https://github.com/JuanCarcedo/Back-End-Development-Pictures)
+
+### Important Notes
+You may need IBM Cloud account for some of the deployments.  
+This part of the project use:  
++ Django
++ Docker
++ IBM Kubernetes Service (IKS)
+
+I use WSL for CURL test and the Theia platform with IBM Skills Network.
+
+## Instructions
+### How to install:  
+- Fork the project.
+- Configure git (I am using WSL):
+  - `git config --global user.email "myemail@something.com"`
+  - `git config --global user.name "MyUser"`
+- Local clone `git clone <URL_PROJECT>` the project in your local machine.
+- Open your favourite IDE (I use [PyCharm](https://www.jetbrains.com/pycharm/)).
+- You can install the requirements manually:
+   1) Create a virtual environment (I am using Python 3.11).
+   2) Install required packages using `py -m pip install -U -r requirements.txt`  
+- You can install them via bash: 
+   1) `cd Back-end-Development-Capstone`  
+   2) `bash ./bin/setup.sh`
+- Remember to Commit and Push changes to your GitHub!
+
+### Version Updates:  
++ v0 -- 2023/04 - Solution deployed.
+
+## Author and Licence
+This is a template from an IBM repository:  
+**[IBM Project](https://github.com/ibm-developer-skills-network/sfvih-Back-end-Development-Capstone)**  
+2023 Copyright © - Licence [Apache](https://github.com/ibm-developer-skills-network/coding-project-template/blob/main/LICENSE)  
+
+Enhancements and other modifications by:  
+**[Juan Carcedo](https://github.com/JuanCarcedo)**      
+
+
+
+# IBM Original notes -- Lab
 
 1.  Clone git repo: `git clone https://github.com/ibm-developer-skills-network/sfvih-Back-end-Development-Capstone.git`
 2.  Get into the directory by `cd sfvih-Back-end-Development-Capstone`
